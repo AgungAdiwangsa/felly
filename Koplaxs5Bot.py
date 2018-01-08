@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 ow = LINETCR.LINE() #Owner
-ow.login(token="Eo73iwAqZcN1CvMCKth0.JUROxzdkKD3c/MrJQ951aa.oRT0Wsa/9Qd8fTN9Y2GDzu0gfoLh7/P/2W+QSHm5owA=")
+ow.login(token="")
 ow.loginResult()
 
-cl = LINETCR.LINE() #Luffy Felly
-cl.login(token="EoU7HsZJSFOuqdbiNav7.mMD8f775uswF2ssZgJVO5W.vgHZ9i9F4Giyg96HII4OKxrrV+rHy5LAoibmsOQ51ls=")
+cl = LINETCR.LINE() #Luffy Bella
+cl.login(token="EoqtLPYFq5nN9gmVXn04.hN4p0CCjGGQlVlZgD/kmPa.z45GlWV8SGC1J+VurNa2uUabvaeB+qCI7II5G1fcGng=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Sanji Anuan
-ki.login(token="EoVQWiygF5ekxbZaXrb1.tBjPCY+fboP36y18qiobCq.b+BzKA0Rgiz4EW4L/u7KnjnQJy1XVol6gZ4H6QIqMuQ=")
+ki.login(token="")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Zorro Andi Agata
-kk.login(token="EoiI8VpzNbt1fjeh7hve.AkOpRusKp1cn5G+jz324xG.qru3jhapjTRyURwVURX+VMckXo1gRKkJhvL0EqN5hU4=")
+kk.login(token="")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop Agus R
-kc.login(token="Eoo3lpS91Q21dzCzR3Qc.75kstEi+SaAxRZV8LISJRa.dFAb9jW0WN0G+fUVygmCC0EpOm4Z/xc/uR89X7IhV7Y=")
+kc.login(token="")
 kc.loginResult()
 
 # ks = LINETCR.LINE() #Chooper
@@ -77,8 +77,8 @@ Dmid = ks.getProfile().mid #Chooper
 Omid = ow.getProfile().mid #Owner
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Omid]
-admin=["u8eeae85d90ca91ddc2fa6463abde7500","u32677c17bef951259fd924b31a3be8e7","u4db269732fc504ea77e98d7c40838171","u9415636d502365256a894ade6b63fe17","u299ea38094ecf897b3af1280990fd2b3","u955bb12fc8df1b50a73216028668cb53","uf78e268b55cf4e4b9078eaf1665ff7bc"]
-owner=["u8eeae85d90ca91ddc2fa6463abde7500","u32677c17bef951259fd924b31a3be8e7","u4db269732fc504ea77e98d7c40838171"]
+admin=["u9415636d502365256a894ade6b63fe17"]
+owner=["u9415636d502365256a894ade6b63fe17"]
 boten=["ueff8f78401c867593c6ddc8aeb8c649d","u9fec89015e171bc9a8f82ce1ded83075","ubb4183ea6b5c541817eaa3e6a8c6acfe"]
 whitelist=[""]
 wait = {
