@@ -33,7 +33,7 @@ kc.loginResult()
 
 ks = kc
 
-print "login success Unch"
+priant "login success Unch"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
