@@ -1,7 +1,10 @@
 # LINE TCR
 Forked from LINEALPHA [MerkKremont]
 
-fixing some error and delete unusable code 
+# Koplaxs Bot
+Forked from Koplaxs5Bot [koplaxs]
+
+Added and Edited some function
 
 ## Require to install
 ```
